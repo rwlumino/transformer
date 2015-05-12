@@ -20,3 +20,16 @@
 <div class="diag left">diagonal left</div>
 <div class="diag right">diagonal right</div>
 ```
+
+##How to import / link
+
+###CSS Import
+Include this at the top of your css stylesheet
+```css
+@import url("https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css") all;
+```
+
+###HTML Link
+<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
+```html
+```
