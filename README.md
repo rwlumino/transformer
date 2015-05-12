@@ -21,7 +21,7 @@
 <div class="diag right">diagonal right</div>
 ```
 
-###How to import / link
+###How to Install
 
 ####CSS Import
 Include this at the top of your css stylesheet
@@ -32,4 +32,11 @@ Include this at the top of your css stylesheet
 ####HTML Link
 ```html
 <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
+```
+
+####Local link
+1. Click Download ZIP on the right
+2. Extract .zip to your project folder
+3. Link in the header of your HTML file
+..* ```html <link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
 ```
