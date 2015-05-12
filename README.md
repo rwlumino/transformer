@@ -19,7 +19,10 @@ Include this at the top of your css stylesheet
   ```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
----
+
+
+
+
 
 ##HTML Markdown examples
 #### Basic Rotations / Flips
