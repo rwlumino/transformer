@@ -25,5 +25,5 @@
 
 
 /* Flips */
-.flip-h{ transform: scaleX(-1); -ms-transform: scaleX(-1); transform: -webkit-scaleX(-1); }
+.flip-h{ transform: scaleX(-1) !important; -ms-transform: scaleX(-1) !important; transform: -webkit-scaleX(-1) !important; }
 .flip-v{ transform: scaleY(-1); -ms-transform: scaleY(-1); transform: -webkit-scaleY(-1); }
