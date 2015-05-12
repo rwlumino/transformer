@@ -1,7 +1,8 @@
 # transformer
-######Light-weight CSS transform plugin
+Light-weight CSS transform plugin
+======
 
-###HTML Markdown examples
+##HTML Markdown examples
 
 ### Basic Rotations / Flips
 ```html
