@@ -1,7 +1,6 @@
 #transformer
 ######Light-weight CSS transform plugin
 
----
 
 ##How to Install
 ####CSS Import
@@ -42,5 +41,3 @@ Include this at the top of your css stylesheet
 <div class="diag left">diagonal left</div>
 <div class="diag right">diagonal right</div>
 ```
-
----
