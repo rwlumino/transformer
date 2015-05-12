@@ -1,5 +1,5 @@
 #transformer.css
-######a lightweight CSS transform plugin
+######A lightweight CSS transform plugin
 
 ##Install transformer.css
 ####CSS Import
