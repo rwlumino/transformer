@@ -2,16 +2,22 @@
 ######A lightweight CSS transform plugin
 
 ##Install transformer.css
-####CSS Import
+####With CSS Import
 Include this at the top of your css stylesheet
 ```css
 @import url("https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css") all;
 ```
+
+OR
+
 ####HTML Link
 Include this in the header of your HTML file
 ```html
 <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
 ```
+
+OR
+
 ####Local link
 1. Click Download ZIP on the right
 2. Extract .zip to your project folder
