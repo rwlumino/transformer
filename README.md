@@ -1,6 +1,6 @@
 # transformer
 Light-weight CSS transform plugin
-<html>
+```html
 <head>
 	<!-- Transformer Plugin by Reuben @dalegroup.net -->
     <link rel="stylesheet" type="text/css" href="transformer.css">
@@ -43,4 +43,4 @@ Light-weight CSS transform plugin
         <div class="diag right">diagonal right</div>
     </div>
 </body>
-</html>
+```
