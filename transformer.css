@@ -4,12 +4,26 @@
 //													//
 //	//	//	//	//	//	//	//	//	//	//	//	//	*/
 
-.default{ transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
+/* Animation settings */
+.anim{ transition:0.3s ease all; }
+.anim:hover{ transition:0.1s ease all; }
+.anim.med{ transition:0.5s ease all; }
+.anim.med:hover, .anim.med:active, .anim.med:focus{ transition:0.3s ease all; }
+.anim.slow, .anim.slow:hover, .anim.slow:active, .anim.slow:focus{ transition:0.8s ease all; }
 
-.down{ transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg);}
-.up{ transform: rotate(180deg); -mstransform: rotate(180deg); -webkit-transform: rotate(180deg); }
-.left{ transform: rotate(270deg); -mstransform: rotate(270deg); -webkit-transform: rotate(270deg); }
-.left{ transform: rotate(270deg); -mstransform: rotate(270deg); -webkit-transform: rotate(270deg); }
+/* Basic Rotations */
+.default, .up{ transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
+.right{ transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); }
+.down{ transform: rotate(180deg); -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg);}
+.left{ transform: rotate(270deg); -ms-transform: rotate(270deg); -webkit-transform: rotate(270deg); }
 
+/* Diagonal Rotations */
+.diag.right{ transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); }
+.diag.up{ transform: rotate(-45deg); -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
+.diag.down{ transform: rotate(135deg); -ms-transform: rotate(135deg); -webkit-transform: rotate(135deg); }
+.diag.left{ transform: rotate(225deg); -ms-transform: rotate(225deg); -webkit-transform: rotate(225deg); }
+
+
+/* Flips */
 .flip-h{ transform: scaleX(-1); -ms-transform: scaleX(-1); transform: -webkit-scaleX(-1); }
 .flip-v{ transform: scaleY(-1); -ms-transform: scaleY(-1); transform: -webkit-scaleY(-1); }
