@@ -1,6 +1,6 @@
-#transformer - a lightweight CSS transform plugin
+#transformer.css - a lightweight CSS transform plugin
 
-##How to Install
+##Install transformer.css
 ####CSS Import
 Include this at the top of your css stylesheet
 ```css
