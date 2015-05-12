@@ -2,8 +2,8 @@
 ######Light-weight CSS transform plugin
 
 
-##HTML Markdown examples
-### Basic Rotations / Flips
+###HTML Markdown examples
+#### Basic Rotations / Flips
 ```html
 <div class="down anim">down</div>
 <div class="up anim">up</div>
@@ -13,7 +13,7 @@
 <div class="flip-v">flip-v</div>
 ```
 
-### Diagonal Rotations
+#### Diagonal Rotations
 ```html
 <div class="diag down">diagonal down</div>
 <div class="diag up">diagonal up</div>
@@ -21,15 +21,15 @@
 <div class="diag right">diagonal right</div>
 ```
 
-##How to import / link
+###How to import / link
 
-###CSS Import
+####CSS Import
 Include this at the top of your css stylesheet
 ```css
 @import url("https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css") all;
 ```
 
-###HTML Link
+####HTML Link
 ```html
 <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
 ```
