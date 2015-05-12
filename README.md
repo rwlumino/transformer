@@ -7,6 +7,7 @@ Include this at the top of your css stylesheet
 @import url("https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css") all;
 ```
 ####HTML Link
+Include this in the header of your HTML file
 ```html
 <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
 ```
