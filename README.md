@@ -16,9 +16,9 @@ Include this in the header of your HTML file
 1. Click Download ZIP on the right
 2. Extract .zip to your project folder
 3. Link in the header of your HTML file:
-  ```
-  <link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
-  ```
+```html
+<link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
+```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
 
