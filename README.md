@@ -15,8 +15,8 @@
 
 ### Diagonal Rotations
 ```html
-	<div class="diag down">diagonal down</div>
-	<div class="diag up">diagonal up</div>
-	<div class="diag left">diagonal left</div>
-	<div class="diag right">diagonal right</div>
+<div class="diag down">diagonal down</div>
+<div class="diag up">diagonal up</div>
+<div class="diag left">diagonal left</div>
+<div class="diag right">diagonal right</div>
 ```
