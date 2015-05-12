@@ -30,6 +30,6 @@ Include this at the top of your css stylesheet
 ```
 
 ###HTML Link
-<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
 ```html
+<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
 ```
