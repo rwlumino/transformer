@@ -1,6 +1,4 @@
-#transformer
-######Light-weight CSS transform plugin
-
+#transformer - A lightweight CSS transform plugin
 
 ##How to Install
 ####CSS Import
