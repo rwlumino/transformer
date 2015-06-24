@@ -226,7 +226,7 @@ pip-log.txt
 #*css3-mixins.css
 #*media-queries.scss
 #*media-queries.css
-#*.css.map
+*.css.map
 
 ##ignore test html
 #*transformer.html
