@@ -7,9 +7,9 @@
 1. Click Download ZIP on the right
 2. Extract .zip to your project folder
 3. Link in the header of your HTML file:
-```html
-<link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
-```
+    ```html
+    <link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
+    ```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
 OR
@@ -43,9 +43,9 @@ OR
 1. Click Download ZIP on the right
 2. Extract .zip to your project folder
 3. Link in the header of your HTML file:
-```html
-<script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" />
-```
+    ```html
+    <script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" />
+    ```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
 
