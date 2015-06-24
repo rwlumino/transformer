@@ -136,30 +136,32 @@ hr {
     .container a:active, .container a:hover, .container a:focus, a .container:visited:active, a .container:visited:hover, a .container:visited:focus {
       color: #3da0ee; }
 
-.markdown-container p {
-  padding-left: 10px; }
-.markdown-container .markdown-body {
-  -webkit-box-shadow: 0 1px 2px #aaa;
-  -khtml-box-shadow: 0 1px 2px #aaa;
-  -moz-box-shadow: 0 1px 2px #aaa;
-  -ms-box-shadow: 0 1px 2px #aaa;
-  -o-box-shadow: 0 1px 2px #aaa;
-  box-shadow: 0 1px 2px #aaa;
-  -webkit-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  background: #fff;
-  padding: 20px;
-  margin-left: 0; }
-  .markdown-container .markdown-body p {
-    color: black; }
-  .markdown-container .markdown-body center {
-    font-weight: bold; }
-  .markdown-container .markdown-body section {
-    margin-left: 30px; }
+.markdown-container {
+  width: 100%; }
+  .markdown-container p {
+    padding-left: 10px; }
+  .markdown-container .markdown-body {
+    -webkit-box-shadow: 0 1px 2px #aaa;
+    -khtml-box-shadow: 0 1px 2px #aaa;
+    -moz-box-shadow: 0 1px 2px #aaa;
+    -ms-box-shadow: 0 1px 2px #aaa;
+    -o-box-shadow: 0 1px 2px #aaa;
+    box-shadow: 0 1px 2px #aaa;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    background: #fff;
+    padding: 20px;
+    margin-left: 0; }
+    .markdown-container .markdown-body p {
+      color: black; }
+    .markdown-container .markdown-body center {
+      font-weight: bold; }
+    .markdown-container .markdown-body section {
+      margin-left: 30px; }
 
 @media screen and (max-width: 1600px) {
   .container {
