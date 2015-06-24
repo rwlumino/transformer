@@ -24,6 +24,8 @@ hr
     &.box
         h4
             margin-left: 0
+        p
+            border-bottom: 2px solid darken($primary, 10)
         @include box-shadow(0, 1px, 2px, #aaa)
         @include border-radius(2px)
         background: $background
@@ -64,7 +66,6 @@ hr
         color: $lightblue-background-darkest
         padding-bottom: 10px
         margin-bottom: 30px
-        border-bottom: 2px solid darken($primary, 10)
         
 @include max-screen(1600px)
     .container
