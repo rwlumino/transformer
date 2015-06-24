@@ -132,9 +132,12 @@ hr {
     margin-left: 10px; }
   .container a, a .container:visited {
     color: #106cb5;
-    text-decoration: underline; }
+    text-decoration: none; }
     .container a:active, .container a:hover, .container a:focus, a .container:visited:active, a .container:visited:hover, a .container:visited:focus {
       color: #3da0ee; }
+  .container .fa {
+    font-size: 40px;
+    margin-right: 10px; }
 
 .markdown-container {
   width: 98%; }
