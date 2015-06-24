@@ -228,5 +228,8 @@ hider.js
 *media-queries.css
 *.css.map
 
+
 #ignore test html
 *transformer.html
+*style.css
+*style.sass
