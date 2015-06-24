@@ -220,12 +220,12 @@ hider.css
 hider.js
 
 #ignore sass libaries
-colours.css
-colours.sass
-css3-mixins.scss
-css3-mixins.css
-media-queries.scss
-media-queries.css
+*colours.css
+*colours.sass
+*css3-mixins.scss
+*css3-mixins.css
+*media-queries.scss
+*media-queries.css
 *.css.map
 
 #ignore test html
