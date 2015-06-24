@@ -144,7 +144,8 @@ hr {
   -o-border-radius: 2px;
   border-radius: 2px;
   background: #fff;
-  margin-left: 20px; }
+  margin-left: 20px;
+  padding: 20px; }
   .markdown-body p {
     color: black; }
   .markdown-body center {
