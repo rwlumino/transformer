@@ -150,7 +150,8 @@ hr {
   -o-border-radius: 2px;
   border-radius: 2px;
   background: #fff;
-  padding: 20px; }
+  padding: 20px;
+  margin-left: 0; }
   .markdown-body p {
     color: black; }
   .markdown-body center {
