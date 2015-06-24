@@ -163,6 +163,7 @@ hr {
     margin-right: 10px; }
 
 .markdown-body {
+  margin-top: 40px;
   margin-left: -10px;
   -webkit-box-shadow: 0 1px 2px #aaa;
   -khtml-box-shadow: 0 1px 2px #aaa;
