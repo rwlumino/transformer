@@ -7,7 +7,7 @@
 1. Click Download ZIP on the right
 2. Extract .zip to your project folder
 3. Link in the header of your HTML file:
-    ```html
+    ```
     <link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
     ```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
@@ -16,7 +16,7 @@ OR
 
 ####External HTML Link
 Include this in the header of your HTML file
-```
+```html
 <link type="text/css" rel="stylesheet" href="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css" />
 ```
 
@@ -33,7 +33,7 @@ Try using transformer.js to trigger transformer.css on specific events (mouseove
 
 ####External HTML Link
 Include this in the header of your HTML file
-```
+```html
 <script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" />
 ```
 
