@@ -31,24 +31,22 @@ Include this at the top of your css stylesheet
 ## Install transformer.js
 Try using transformer.js to trigger transformer.css on specific events (mouseover, click etc)
 
-####External HTML Link
-Include this in the header of your HTML file
-```
-<script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" />
-```
-
-OR
-
-####Local link
-1. Click Download ZIP on the right
-2. Extract .zip to your project folder
-3. Link in the header of your HTML file:
-    ```html
-    <script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" />
+    ####External HTML Link
+    Include this in the header of your HTML file
     ```
-4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
+    <script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" />
+    ```
 
+    OR
 
+    ####Local link
+    1. Click Download ZIP on the right
+    2. Extract .zip to your project folder
+    3. Link in the header of your HTML file:
+        ```html
+        <script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" />
+        ```
+    4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
 
 
