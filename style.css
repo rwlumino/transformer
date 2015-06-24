@@ -88,8 +88,6 @@ hr {
     transition: width, height, 0.5s, ease; }
     .container.box h4 {
       margin-left: 0; }
-    .container.box p {
-      border-bottom: 2px solid #106cb5; }
   .container div {
     color: #fff;
     background: #2a98f3;
