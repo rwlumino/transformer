@@ -113,7 +113,6 @@ hr {
     margin: 50px 25px 50px 25px; }
   .container.title {
     width: 100%;
-    padding-left: 10px;
     margin: 0.5em 0.5em 0 0.5em; }
     .container.title aside {
       width: 290px;
@@ -165,7 +164,6 @@ hr {
 
 .markdown-body {
   margin-top: 20px;
-  margin-left: -10px;
   -webkit-box-shadow: 0 1px 2px #aaa;
   -khtml-box-shadow: 0 1px 2px #aaa;
   -moz-box-shadow: 0 1px 2px #aaa;
