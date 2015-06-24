@@ -1,0 +1,63 @@
+/*	//	//	//	//	//	//	//	//	//	//	//	//	//  //
+//													    //
+//	T R A N S F O R M E R by R E U B E N @dalegroup.net	//
+//													    //
+//	//	//	//	//	//	//	//	//	//	//	//	//	//  */
+
+// I M P O R T   M I X I N S - https://github.com/matthieua/sass-css3-mixins
+@import "css3-mixins"
+// I M P O R T   C O L O U R S 
+@import "colours.sass"
+/* Animation settings */
+
+/* removed and added to transformer.js so they dont spin on load
+
+.anim
+    transition: 0.3s ease all
+.anim.med
+    transition: 0.5s ease all
+.anim.slow
+    transition: 0.8s ease all
+
+
+.anim:hover
+    transition: 0.1s ease all
+.anim.med
+    &:hover, &:focus, &:active, .active,
+        transition: 0.3s ease all
+.anim.slow
+    &:hover, &:focus, &:active, .active,
+        transition: 0.8s ease all
+
+/* Onclick */
+.onclick, 
+.onhover
+    transform: none !important
+
+/* Basic Rotations */
+.default,
+.up
+    @include transform(rotate(0deg))
+.right
+    @include transform(rotate(90deg))
+.down 
+    @include transform(rotate(180deg))
+.left
+    @include transform(rotate(270deg))
+
+/* Diagonal Rotations */
+.diag.right
+    @include transform(rotate(45deg))
+.diag.up
+    @include transform(rotate(-45deg))
+.diag.down
+    @include transform(rotate(135deg))
+.diag.left
+    @include transform(rotate(225deg))
+
+/* Flips */
+.flip-h
+    @include transform(scaleX(-1))
+.flip-v
+    @include transform(scaleY(-1))
+        

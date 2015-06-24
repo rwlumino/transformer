@@ -5,11 +5,22 @@
 //	//	//	//	//	//	//	//	//	//	//	//	//	*/
 
 /* Animation settings */
+
+/* removed and added to transformer.js so they dont spin on load
+
 .anim{ transition:0.3s ease all; }
-.anim:hover{ transition:0.1s ease all; }
 .anim.med{ transition:0.5s ease all; }
+.anim.slow{ transition:0.8s ease all; }
+
+*/
+.anim:hover{ transition:0.1s ease all; }
 .anim.med:hover, .anim.med:active, .anim.med:focus{ transition:0.3s ease all; }
-.anim.slow, .anim.slow:hover, .anim.slow:active, .anim.slow:focus{ transition:0.8s ease all; }
+.anim.slow:hover, .anim.slow:active, .anim.slow:focus{ transition:0.8s ease all; }
+
+
+
+/* Onclick */
+.onclick, .onhover{ transform:none !important; }
 
 /* Basic Rotations */
 .default, .up{ transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
@@ -21,7 +32,7 @@
 .diag.right{ transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); }
 .diag.up{ transform: rotate(-45deg); -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
 .diag.down{ transform: rotate(135deg); -ms-transform: rotate(135deg); -webkit-transform: rotate(135deg); }
-.diag.left{ transform: rotate(225deg); -ms-transform: rotate(225deg); -webkit-transform: rotate(225deg); }
+.diag.left{ transform: rotate(225deg); -ms-transform: rotate(225deg); -webkit-transform: rotate(-45deg); }
 
 
 /* Flips */
