@@ -116,7 +116,8 @@ hr {
     padding-left: 10px;
     margin: 0.5em 0.5em 0 0.5em; }
     .container.title aside {
-      padding: 20px;
+      width: 290px;
+      padding: 15px;
       background: #fff;
       -webkit-box-shadow: 0 1px 2px #aaa;
       -khtml-box-shadow: 0 1px 2px #aaa;
@@ -125,17 +126,17 @@ hr {
       -o-box-shadow: 0 1px 2px #aaa;
       box-shadow: 0 1px 2px #aaa;
       -webkit-border-top-left-radius: 0;
-      -webkit-border-top-right-radius: 15px;
-      -webkit-border-bottom-right-radius: 15px;
-      -webkit-border-bottom-left-radius: 15px;
+      -webkit-border-top-right-radius: 20px;
+      -webkit-border-bottom-right-radius: 20px;
+      -webkit-border-bottom-left-radius: 20px;
       -moz-border-radius-topleft: 0;
-      -moz-border-radius-topright: 15px;
-      -moz-border-radius-bottomright: 15px;
-      -moz-border-radius-bottomleft: 15px;
+      -moz-border-radius-topright: 20px;
+      -moz-border-radius-bottomright: 20px;
+      -moz-border-radius-bottomleft: 20px;
       border-top-left-radius: 0;
-      border-top-right-radius: 15px;
-      border-bottom-right-radius: 15px;
-      border-bottom-left-radius: 15px; }
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px; }
     .container.title a {
       text-decoration: none; }
   .container h1 {
