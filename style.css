@@ -114,6 +114,8 @@ hr {
   .container.title {
     width: 100%;
     padding-left: 10px; }
+    .container.title a {
+      text-decoration: none; }
   .container h1 {
     margin: 5px 0 5px;
     color: #106cb5; }
