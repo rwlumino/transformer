@@ -24,46 +24,106 @@
         <h3>by Reuben @dalegroup.net</h3>
         <p>A lightweight CSS transform plugin</p>
         <p><a href="" class="show-more">View installation instructions</a></p>
-<article class="hide-this markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-hiderjs" class="anchor" href="#hiderjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>hider.js</h1>
+        <article class="hide-this markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-transformercss" class="anchor" href="#transformercss" aria-hidden="true"><span class="octicon octicon-link"></span></a>transformer.css</h1>
 
-<h6><a id="user-content-a-lightweight-jquery--css3-modular-hideshow-plugin" class="anchor" href="#a-lightweight-jquery--css3-modular-hideshow-plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>A lightweight jquery / css3 modular hide/show plugin</h6>
+<h6><a id="user-content-a-lightweight-css-transform-plugin" class="anchor" href="#a-lightweight-css-transform-plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>A lightweight CSS transform plugin</h6>
 
-<h2><a id="user-content-requires-jquery" class="anchor" href="#requires-jquery" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requires JQuery</h2>
+<h2><a id="user-content-install-transformercss" class="anchor" href="#install-transformercss" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install transformer.css</h2>
 
-<h4><a id="user-content-download-here" class="anchor" href="#download-here" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download here</h4>
-
-<p><a href="http://jquery.com/download">http://jquery.com/download</a></p>
-
-<h4><a id="user-content-remote-link" class="anchor" href="#remote-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remote link</h4>
-
-<p>Include this in the header of your HTML file</p>
-
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//code.jquery.com/jquery-migrate-1.2.1.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
-
-<h2><a id="user-content-install-hiderjs" class="anchor" href="#install-hiderjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install hider.js</h2>
-
-<h4><a id="user-content-with-remote-link" class="anchor" href="#with-remote-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>With remote link</h4>
-
-<p>Include this in the header of your HTML file</p>
-
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>https://cdn.rawgit.com/rwlumino/hider/master/hider.css<span class="pl-pds">"</span></span> /&gt;
-&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://cdn.rawgit.com/rwlumino/hider/master/hider.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
-
-<p>OR</p>
-
-<h4><a id="user-content-with-local-link" class="anchor" href="#with-local-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>With local link</h4>
+<section><h4><a id="user-content-local-link" class="anchor" href="#local-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Local link</h4>
 
 <ol>
 <li>Click Download ZIP on the right</li>
 <li>Extract .zip to your project folder</li>
-<li>Link in the header of your HTML file:</li>
+<li>Link in the header of your HTML file:
+<code>html
+&lt;link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" /&gt;
+</code></li>
+<li>Remember to change YOUR_FILE_PATH to the correct file path of the CSS file</li>
 </ol>
 
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>YOUR_FILE_PATH/hider.css<span class="pl-pds">"</span></span> /&gt;
-&lt;<span class="pl-ent">link</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>YOUR_FILE_PATH/hider.js<span class="pl-pds">"</span></span> /&gt;</pre></div>
+<center>OR</center>
 
-<p>Remember to change YOUR_FILE_PATH to the correct file path of the CSS file</p>
-</article>    </div>
+<h4><a id="user-content-external-html-link" class="anchor" href="#external-html-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>External HTML Link</h4>
+
+<p>Include this in the header of your HTML file</p>
+
+<pre><code>&lt;link type="text/css" rel="stylesheet" href="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css" /&gt;
+</code></pre>
+
+<center>OR</center>
+
+<h4><a id="user-content-with-css-import" class="anchor" href="#with-css-import" aria-hidden="true"><span class="octicon octicon-link"></span></a>With CSS Import</h4>
+
+<p>Include this at the top of your css stylesheet</p>
+
+<div class="highlight highlight-css"><pre><span class="pl-k">@import</span> <span class="pl-c1">url</span>(<span class="pl-s"><span class="pl-pds">"</span>//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css<span class="pl-pds">"</span></span>) <span class="pl-c1">all</span>;</pre></div></section>
+
+<h2><a id="user-content-install-transformerjs" class="anchor" href="#install-transformerjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install transformer.js</h2>
+
+<p>Try using transformer.js to trigger transformer.css on specific events (mouseover, click etc)</p>
+
+<section><h4><a id="user-content-external-html-link-1" class="anchor" href="#external-html-link-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>External HTML Link</h4>
+
+<p>Include this in the header of your HTML file</p>
+
+<pre><code>&lt;script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" /&gt;
+</code></pre>
+
+<center>OR<center>
+
+<h4><a id="user-content-local-link-1" class="anchor" href="#local-link-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Local link</h4>
+
+<ol>
+<li>Click Download ZIP on the right</li>
+<li>Extract .zip to your project folder</li>
+<li>Link in the header of your HTML file:
+<code>html
+&lt;script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" /&gt;
+</code></li>
+<li>Remember to change YOUR_FILE_PATH to the correct file path of the CSS file</li>
+</ol></section>
+
+<h2><a id="user-content-html-markdown-examples" class="anchor" href="#html-markdown-examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML Markdown examples</h2>
+
+<h4><a id="user-content-basic-rotations--flips" class="anchor" href="#basic-rotations--flips" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Rotations / Flips</h4>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>down anim<span class="pl-pds">"</span></span>&gt;down&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>up anim<span class="pl-pds">"</span></span>&gt;up&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>left<span class="pl-pds">"</span></span>&gt;left&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>right<span class="pl-pds">"</span></span>&gt;right&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flip-h<span class="pl-pds">"</span></span>&gt;flip-h&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flip-v<span class="pl-pds">"</span></span>&gt;flip-v&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h4><a id="user-content-diagonal-rotations" class="anchor" href="#diagonal-rotations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Diagonal Rotations</h4>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>diag down<span class="pl-pds">"</span></span>&gt;diagonal down&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>diag up<span class="pl-pds">"</span></span>&gt;diagonal up&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>diag left<span class="pl-pds">"</span></span>&gt;diagonal left&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>diag right<span class="pl-pds">"</span></span>&gt;diagonal right&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h4><a id="user-content-animations" class="anchor" href="#animations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Animations</h4>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>anim diag down<span class="pl-pds">"</span></span>&gt;animated diagonal down&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>anim diag up<span class="pl-pds">"</span></span>&gt;animated diagonal up&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>anim slow left<span class="pl-pds">"</span></span>&gt;slow animated diagonal left&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>anim med right<span class="pl-pds">"</span></span>&gt;med animated diagonal right&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h4><a id="user-content-elements-transform-when-clicked" class="anchor" href="#elements-transform-when-clicked" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elements transform when clicked</h4>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onclick anim diag down<span class="pl-pds">"</span></span>&gt;animated diagonal down&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onclick anim up<span class="pl-pds">"</span></span>&gt;animated diagonal up&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onclick anim left<span class="pl-pds">"</span></span>&gt;slow animated diagonal left&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onclick anim right<span class="pl-pds">"</span></span>&gt;med animated diagonal right&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h4><a id="user-content-elements-transform-when-hovered" class="anchor" href="#elements-transform-when-hovered" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elements transform when hovered</h4>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onhover anim diag down<span class="pl-pds">"</span></span>&gt;animated diagonal down&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onhover anim up<span class="pl-pds">"</span></span>&gt;animated diagonal up&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onhover anim left<span class="pl-pds">"</span></span>&gt;slow animated diagonal left&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>onhover anim right<span class="pl-pds">"</span></span>&gt;med animated diagonal right&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+</article>
+    </div>
     <div class="box container basic">
         <h4>Basic Rotations / Flips</h4>
         <p>These are the basic / core rotations, using the classes down, up, left, right, flip-h and flip-v</p>
