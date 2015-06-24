@@ -118,6 +118,7 @@ hr {
     .container.title aside {
       width: 290px;
       padding: 15px;
+      margin-bottom: 15px;
       background: #fff;
       -webkit-box-shadow: 0 1px 2px #aaa;
       -khtml-box-shadow: 0 1px 2px #aaa;
