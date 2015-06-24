@@ -89,7 +89,7 @@ hr {
     .container.box h4 {
       margin-left: 0; }
     .container.box p {
-      border-bottom: 2px solid #0c5086; }
+      border-bottom: 2px solid #106cb5; }
   .container div {
     color: #fff;
     background: #2a98f3;
@@ -120,14 +120,15 @@ hr {
     color: #106cb5; }
   .container h3 {
     margin: 0 0 0 7px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #6cb7f2; }
   .container h4 {
     margin: 0 0 0 4px;
     color: #083457; }
   .container p {
     width: 100%;
-    color: #2a98f3;
+    color: #106cb5;
+    margin-left: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px; }
 
