@@ -113,7 +113,8 @@ hr {
     margin: 50px 25px 50px 25px; }
   .container.title {
     width: 100%;
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin: 0.5em 0.5em 0 0.5em; }
     .container.title a {
       text-decoration: none; }
   .container h1 {
@@ -140,7 +141,8 @@ hr {
     margin-right: 10px; }
 
 .markdown-container {
-  width: 98%; }
+  width: 98%;
+  margin: 0 0.5em 0.5em 0.5em; }
   .markdown-container p {
     padding-left: 10px; }
   .markdown-container .markdown-body {
