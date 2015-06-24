@@ -119,6 +119,7 @@ hr {
       padding: 15px;
       margin-bottom: 15px;
       background: #fff;
+      border: 1px solid #106cb5;
       -webkit-box-shadow: 0 1px 2px #aaa;
       -khtml-box-shadow: 0 1px 2px #aaa;
       -moz-box-shadow: 0 1px 2px #aaa;
@@ -163,7 +164,6 @@ hr {
     margin-right: 10px; }
 
 .markdown-body {
-  margin-top: 20px;
   -webkit-box-shadow: 0 1px 2px #aaa;
   -khtml-box-shadow: 0 1px 2px #aaa;
   -moz-box-shadow: 0 1px 2px #aaa;
