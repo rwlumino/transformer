@@ -71,3 +71,30 @@ OR
 <div class="diag left">diagonal left</div>
 <div class="diag right">diagonal right</div>
 ```
+
+#### Animations
+```html
+<div class="anim diag down">animated diagonal down</div>
+<div class="anim diag up">animated diagonal up</div>
+<div class="anim slow left">slow animated diagonal left</div>
+<div class="anim med right">med animated diagonal right</div>
+```
+
+#### Elements transform when clicked
+```html
+<div class="onclick anim diag down">animated diagonal down</div>
+<div class="onclick anim up">animated diagonal up</div>
+<div class="onclick anim left">slow animated diagonal left</div>
+<div class="onclick anim right">med animated diagonal right</div>
+```
+
+#### Elements transform when hovered
+```html
+<div class="onhover anim diag down">animated diagonal down</div>
+<div class="onhover anim up">animated diagonal up</div>
+<div class="onhover anim left">slow animated diagonal left</div>
+<div class="onhover anim right">med animated diagonal right</div>
+```
+
+
+
