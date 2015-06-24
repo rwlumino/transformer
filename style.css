@@ -132,7 +132,7 @@ hr {
   .container a, a .container:visited {
     color: #106cb5;
     text-decoration: underline; }
-    .container a:active, a .container:visited:active {
+    .container a:active, .container a:hover, .container a:focus, a .container:visited:active, a .container:visited:hover, a .container:visited:focus {
       color: #3da0ee; }
 
 .markdown-body {
