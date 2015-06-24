@@ -2,18 +2,39 @@
 ######A lightweight CSS transform plugin
 
 ##Install transformer.css
-####With CSS Import
-Include this at the top of your css stylesheet
-```css
-@import url("https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css") all;
+
+####Local link
+1. Click Download ZIP on the right
+2. Extract .zip to your project folder
+3. Link in the header of your HTML file:
+```html
+<link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
+```
+4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
+
+OR
+
+####External HTML Link
+Include this in the header of your HTML file
+```html
+<link type="text/css" rel="stylesheet" href="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css" />
 ```
 
 OR
 
-####HTML Link
+####With CSS Import
+Include this at the top of your css stylesheet
+```css
+@import url("//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css") all;
+```
+
+## Install transformer.js
+Try using transformer.js to trigger transformer.css on specific events (mouseover, click etc)
+
+####External HTML Link
 Include this in the header of your HTML file
 ```html
-<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rwlumino/transformer/master/transformer.css" />
+<script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" />
 ```
 
 OR
@@ -23,7 +44,7 @@ OR
 2. Extract .zip to your project folder
 3. Link in the header of your HTML file:
 ```html
-<link type="text/css" rel="stylesheet" href="YOUR_FILE_PATH/transformer.css" />
+<script type="text/javascript" src="YOUR_FILE_PATH/transformer.js" />
 ```
 4. Remember to change YOUR_FILE_PATH to the correct file path of the CSS file
 
