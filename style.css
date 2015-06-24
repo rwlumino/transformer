@@ -166,7 +166,8 @@ hr {
   width: 100%;
   margin: 0 0.5em 0.5em 0.5em; }
   .markdown-container p {
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin-top: 0; }
   .markdown-container .markdown-body {
     -webkit-box-shadow: 0 1px 2px #aaa;
     -khtml-box-shadow: 0 1px 2px #aaa;
