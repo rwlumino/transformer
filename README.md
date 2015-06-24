@@ -16,7 +16,7 @@ OR
 
 ####External HTML Link
 Include this in the header of your HTML file
-```html
+```
 <link type="text/css" rel="stylesheet" href="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.css" />
 ```
 
@@ -33,7 +33,7 @@ Try using transformer.js to trigger transformer.css on specific events (mouseove
 
 ####External HTML Link
 Include this in the header of your HTML file
-```html
+```
 <script type="text/javascript" src="//cdn.rawgit.com/rwlumino/transformercss/master/transformer.js" />
 ```
 
