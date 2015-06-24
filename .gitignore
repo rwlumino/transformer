@@ -216,17 +216,17 @@ pip-log.txt
 .mr.developer.cfg
 
 #ignore hider.css / js
-hider.css
-hider.js
+#hider.css
+#hider.js
 
 #ignore sass libaries
-*colours.css
-*colours.sass
-*css3-mixins.scss
-*css3-mixins.css
-*media-queries.scss
-*media-queries.css
-*.css.map
+#*colours.css
+#*colours.sass
+#*css3-mixins.scss
+#*css3-mixins.css
+#*media-queries.scss
+#*media-queries.css
+#*.css.map
 
-#ignore test html
-*transformer.html
+##ignore test html
+#*transformer.html
