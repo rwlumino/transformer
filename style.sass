@@ -74,19 +74,21 @@ hr
         text-decoration: underline
         &:active, &:hover, &:focus
             color: $primary-lighter
-        
-.markdown-body
-    @include box-shadow(0, 1px, 2px, #aaa)
-    @include border-radius(2px)
-    background: $background
-    padding: 20px
-    margin-left: 0
+.markdown-container
     p
-        color: black
-    center
-        font-weight: bold
-    section
-        margin-left: 30px
+        padding-left: 10px
+    .markdown-body
+        @include box-shadow(0, 1px, 2px, #aaa)
+        @include border-radius(2px)
+        background: $background
+        padding: 20px
+        margin-left: 0
+        p
+            color: black
+        center
+            font-weight: bold
+        section
+            margin-left: 30px
         
 @include max-screen(1600px)
     .container
